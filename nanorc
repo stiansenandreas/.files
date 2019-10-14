@@ -1,1 +1,9 @@
-/etc/nanorc
+include /usr/share/nano-syntax-highlighting/*.nanorc
+
+set linenumbers
+set statuscolor brightwhite
+set errorcolor brightwhite,red
+set selectedcolor brightwhite,magenta
+set numbercolor magenta
+set nohelp
+set autoindent
