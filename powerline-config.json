@@ -1,0 +1,14 @@
+{
+  "segments": [
+    "username",
+    "hostname",
+    "cwd",
+    "root"
+  ],
+  "theme": "~/.config/powerline-shell/theme.py",
+  "cwd": {
+    "max_depth": 3,
+    "max_dir_size": 10,
+    "full_cwd": true
+  }
+}

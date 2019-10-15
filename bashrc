@@ -8,4 +8,10 @@
 shopt -s checkwinsize
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-PS1=' [\[\e[0;36m\u\]\e[0;37m] {\[\e[0;33m\w\]\e[0;37m} \e[0;37m\$\e[m\] '
+function _update_ps1() {
+    PS1=$(powerline-shell $?)
+}
+
+if [[ $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then
+    PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
+fi
