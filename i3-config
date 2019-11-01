@@ -80,8 +80,7 @@ client.focused_inactive #133e7c #5f676a #ffffff #133e7c   #133e7c
 
  # window rules
 assign [class="firefox"] 1
-for_window [class="neo"] move to workspace 2, floating enable, resize set 590 365, move position 20 65
-for_window [class="Termite"] move to workspace 2, floating enable, resize set 590 610, move position 20 450, mark t
+for_window [class="Termite"] move to workspace 2, floating enable, resize set 590 995, move position 20 65, mark t
 for_window [class="code-oss"] move to workspace 2, floating enable, resize set 1270 995, move position 630 65, mark c
 for_window [class="Spotify"] move to workspace 3, resize set 576 0
 for_window [class="discord"] move to workspace 3, resize set 1344 0
@@ -89,7 +88,7 @@ for_window [class="Lutris"] move to workspace 4
 
 
  # program keybinds
-bindsym $mod+Return swap container with mark c
+bindsym $mod+Return [con_mark="^t$"] swap container with mark c
 bindsym $mod+Shift+q kill
 bindsym $mod+d exec rofi -show drun
 
@@ -117,6 +116,4 @@ exec --no-startup-id spotify
 exec --no-startup-id firefox
 exec --no-startup-id discord
 exec --no-startup-id lutris
-exec --no-startup-id code
 exec --no-startup-id termite
-exec --no-startup-id termite --class=neo -e neofetch --hold
