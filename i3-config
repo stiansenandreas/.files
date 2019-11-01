@@ -79,9 +79,9 @@ client.focused_inactive #133e7c #5f676a #ffffff #133e7c   #133e7c
 
 
  # window rules
-assign [class="firefox"] 1
-for_window [class="Termite"] move to workspace 2, floating enable, resize set 590 995, move position 20 65, mark t
-for_window [class="code-oss"] move to workspace 2, floating enable, resize set 1270 995, move position 630 65, mark c
+for_window [class="Termite"] move to workspace 1, floating enable, resize set 590 995, move position 20 65, mark t
+for_window [class="code-oss"] move to workspace 1, floating enable, resize set 1270 995, move position 630 65, mark c
+assign [class="firefox"] 2
 for_window [class="Spotify"] move to workspace 3, resize set 576 0
 for_window [class="discord"] move to workspace 3, resize set 1344 0
 for_window [class="Lutris"] move to workspace 4
