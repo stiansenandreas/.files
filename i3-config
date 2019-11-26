@@ -103,7 +103,7 @@ bindsym XF86AudioPrev exec --no-startup-id playerctl previous
 
  # layout
 exec --no-startup-id "i3-msg 'workspace 3; append_layout ~/.config/i3/ws3.json'"
-exec --no-startup-id picom -b
+exec --no-startup-id compton -b
 exec --no-startup-id setxkbmap -layout no
 exec --no-startup-id feh --bg-fill ~/.config/i3/wallpaper.png
 exec --no-startup-id /home/andreas/.config/polybar/launch.sh &
