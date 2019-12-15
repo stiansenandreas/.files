@@ -1,0 +1,29 @@
+//META{"name":"Chemical","description":"Minimalist, compact, squared","author":"Spectra#7698","version":"1.1","source":"https://github.com/codedotspectra/themes","website":"https://codedotspectra.github.io/me/"}*//{}
+/*
+ ██████╗██╗  ██╗███████╗███╗   ███╗██╗ ██████╗ █████╗ ██╗
+██╔════╝██║  ██║██╔════╝████╗ ████║██║██╔════╝██╔══██╗██║
+██║     ███████║█████╗  ██╔████╔██║██║██║     ███████║██║
+██║     ██╔══██║██╔══╝  ██║╚██╔╝██║██║██║     ██╔══██║██║
+╚██████╗██║  ██║███████╗██║ ╚═╝ ██║██║╚██████╗██║  ██║███████╗
+ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝
++ ========================= +
++ Chemical Theme for Dicord +
++ Made by Spectra#7698      +
++ ========================= +
+The author (Spectra#7698) retains full rights of this code.
+You are not allowed to redistribute this theme or any part of it as your own. That means do not post an edited version of this theme anywhere.
+You are allowed to edit the theme for personal use only.
+If you enjoy using the theme, help spread the word!
+*/
+/*###################################################################################################*/
+@import url("https://codedotspectra.github.io/themes/chemical/import/core.css");
+/*###################################################################################################*/
+:root{
+  --primary:#ea00d9;
+  --primaryT:rgba(0, 102, 255,.25);
+  --primary2:#0047b3;
+  --dark:#161825;
+  --medium:#070825;
+  --light:#2e3038;
+  --HomeButtonImg:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjI1NnB4IiBoZWlnaHQ9IjI5M3B4IiB2aWV3Qm94PSIwIDAgMjU2IDI5MyIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCI+CiAgICA8Zz4KICAgICAgICA8cGF0aCBkPSJNMjI2LjAxMTQyOSwwIEwyOS45ODg1NzE0LDAgQzEzLjQ1ODI4NTcsMCAwLDEzLjQ1ODI4NTcgMCwzMC4xMzQ4NTcxIEwwLDIyNy45MTMxNDMgQzAsMjQ0LjU4OTcxNCAxMy40NTgyODU3LDI1OC4wNDggMjkuOTg4NTcxNCwyNTguMDQ4IEwxOTUuODc2NTcxLDI1OC4wNDggTDE4OC4xMjM0MjksMjMwLjk4NTE0MyBMMjA2Ljg0OCwyNDguMzkzMTQzIEwyMjQuNTQ4NTcxLDI2NC43NzcxNDMgTDI1NiwyOTIuNTcxNDI5IEwyNTYsMzAuMTM0ODU3MSBDMjU2LDEzLjQ1ODI4NTcgMjQyLjU0MTcxNCwwIDIyNi4wMTE0MjksMCBaIE0xNjkuNTQ1MTQzLDE5MS4wNDkxNDMgQzE2OS41NDUxNDMsMTkxLjA0OTE0MyAxNjQuMjc4ODU3LDE4NC43NTg4NTcgMTU5Ljg5MDI4NiwxNzkuMiBDMTc5LjA1MzcxNCwxNzMuNzg3NDI5IDE4Ni4zNjgsMTYxLjc5MiAxODYuMzY4LDE2MS43OTIgQzE4MC4zNzAyODYsMTY1Ljc0MTcxNCAxNzQuNjY1MTQzLDE2OC41MjExNDMgMTY5LjU0NTE0MywxNzAuNDIyODU3IEMxNjIuMjMwODU3LDE3My40OTQ4NTcgMTU1LjIwOTE0MywxNzUuNTQyODU3IDE0OC4zMzM3MTQsMTc2LjcxMzE0MyBDMTM0LjI5MDI4NiwxNzkuMzQ2Mjg2IDEyMS40MTcxNDMsMTc4LjYxNDg1NyAxMTAuNDQ1NzE0LDE3Ni41NjY4NTcgQzEwMi4xMDc0MjksMTc0Ljk1NzcxNCA5NC45Mzk0Mjg2LDE3Mi42MTcxNDMgODguOTQxNzE0MywxNzAuMjc2NTcxIEM4NS41NzcxNDI5LDE2OC45NiA4MS45MiwxNjcuMzUwODU3IDc4LjI2Mjg1NzEsMTY1LjMwMjg1NyBDNzcuODI0LDE2NS4wMTAyODYgNzcuMzg1MTQyOSwxNjQuODY0IDc2Ljk0NjI4NTcsMTY0LjU3MTQyOSBDNzYuNjUzNzE0MywxNjQuNDI1MTQzIDc2LjUwNzQyODYsMTY0LjI3ODg1NyA3Ni4zNjExNDI5LDE2NC4xMzI1NzEgQzczLjcyOCwxNjIuNjY5NzE0IDcyLjI2NTE0MjksMTYxLjY0NTcxNCA3Mi4yNjUxNDI5LDE2MS42NDU3MTQgQzcyLjI2NTE0MjksMTYxLjY0NTcxNCA3OS4yODY4NTcxLDE3My4zNDg1NzEgOTcuODY1MTQyOSwxNzguOTA3NDI5IEM5My40NzY1NzE0LDE4NC40NjYyODYgODguMDY0LDE5MS4wNDkxNDMgODguMDY0LDE5MS4wNDkxNDMgQzU1LjczNDg1NzEsMTkwLjAyNTE0MyA0My40NDY4NTcxLDE2OC44MTM3MTQgNDMuNDQ2ODU3MSwxNjguODEzNzE0IEM0My40NDY4NTcxLDEyMS43MDk3MTQgNjQuNTEyLDgzLjUyOTE0MjkgNjQuNTEyLDgzLjUyOTE0MjkgQzg1LjU3NzE0MjksNjcuNzMwMjg1NyAxMDUuNjE4Mjg2LDY4LjE2OTE0MjkgMTA1LjYxODI4Niw2OC4xNjkxNDI5IEwxMDcuMDgxMTQzLDY5LjkyNDU3MTQgQzgwLjc0OTcxNDMsNzcuNTMxNDI4NiA2OC42MDgsODkuMDg4IDY4LjYwOCw4OS4wODggQzY4LjYwOCw4OS4wODggNzEuODI2Mjg1Nyw4Ny4zMzI1NzE0IDc3LjIzODg1NzEsODQuODQ1NzE0MyBDOTIuODkxNDI4Niw3Ny45NzAyODU3IDEwNS4zMjU3MTQsNzYuMDY4NTcxNCAxMTAuNDQ1NzE0LDc1LjYyOTcxNDMgQzExMS4zMjM0MjksNzUuNDgzNDI4NiAxMTIuMDU0ODU3LDc1LjMzNzE0MjkgMTEyLjkzMjU3MSw3NS4zMzcxNDI5IEMxMjEuODU2LDc0LjE2Njg1NzEgMTMxLjk0OTcxNCw3My44NzQyODU3IDE0Mi40ODIyODYsNzUuMDQ0NTcxNCBDMTU2LjM3OTQyOSw3Ni42NTM3MTQzIDE3MS4zMDA1NzEsODAuNzQ5NzE0MyAxODYuNTE0Mjg2LDg5LjA4OCBDMTg2LjUxNDI4Niw4OS4wODggMTc0Ljk1NzcxNCw3OC4xMTY1NzE0IDE1MC4wODkxNDMsNzAuNTA5NzE0MyBMMTUyLjEzNzE0Myw2OC4xNjkxNDI5IEMxNTIuMTM3MTQzLDY4LjE2OTE0MjkgMTcyLjE3ODI4Niw2Ny43MzAyODU3IDE5My4yNDM0MjksODMuNTI5MTQyOSBDMTkzLjI0MzQyOSw4My41MjkxNDI5IDIxNC4zMDg1NzEsMTIxLjcwOTcxNCAyMTQuMzA4NTcxLDE2OC44MTM3MTQgQzIxNC4zMDg1NzEsMTY4LjgxMzcxNCAyMDEuODc0Mjg2LDE5MC4wMjUxNDMgMTY5LjU0NTE0MywxOTEuMDQ5MTQzIFogTTEwMS41MjIyODYsMTIyLjczMzcxNCBDOTMuMTg0LDEyMi43MzM3MTQgODYuNjAxMTQyOSwxMzAuMDQ4IDg2LjYwMTE0MjksMTM4Ljk3MTQyOSBDODYuNjAxMTQyOSwxNDcuODk0ODU3IDkzLjMzMDI4NTcsMTU1LjIwOTE0MyAxMDEuNTIyMjg2LDE1NS4yMDkxNDMgQzEwOS44NjA1NzEsMTU1LjIwOTE0MyAxMTYuNDQzNDI5LDE0Ny44OTQ4NTcgMTE2LjQ0MzQyOSwxMzguOTcxNDI5IEMxMTYuNTg5NzE0LDEzMC4wNDggMTA5Ljg2MDU3MSwxMjIuNzMzNzE0IDEwMS41MjIyODYsMTIyLjczMzcxNCBNMTU0LjkxNjU3MSwxMjIuNzMzNzE0IEMxNDYuNTc4Mjg2LDEyMi43MzM3MTQgMTM5Ljk5NTQyOSwxMzAuMDQ4IDEzOS45OTU0MjksMTM4Ljk3MTQyOSBDMTM5Ljk5NTQyOSwxNDcuODk0ODU3IDE0Ni43MjQ1NzEsMTU1LjIwOTE0MyAxNTQuOTE2NTcxLDE1NS4yMDkxNDMgQzE2My4yNTQ4NTcsMTU1LjIwOTE0MyAxNjkuODM3NzE0LDE0Ny44OTQ4NTcgMTY5LjgzNzcxNCwxMzguOTcxNDI5IEMxNjkuODM3NzE0LDEzMC4wNDggMTYzLjI1NDg1NywxMjIuNzMzNzE0IDE1NC45MTY1NzEsMTIyLjczMzcxNCIgZmlsbD0iIzcyODlEQSI+PC9wYXRoPgogICAgPC9nPgo8L3N2Zz4K)
+}
